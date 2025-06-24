@@ -4,8 +4,8 @@ export default function linear_search(
 ): boolean {
     for (let index = 0; index < haystack.length; index++) {
         if (haystack[index] === needle) {
-            return true;
+            return true
         }
     }
-    return false;
+    return false
 }
